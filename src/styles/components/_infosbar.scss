@@ -1,0 +1,19 @@
+.infos-bar {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: center;
+
+    &__infos {
+        display: flex;
+        gap: 50px;
+
+        &__item {
+            font-size: 14px;
+
+            b {
+                font-size: 18px;
+                display: block;
+            }
+        }
+    }
+}
